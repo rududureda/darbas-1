@@ -1,0 +1,17 @@
+body{
+    background-color: pink;
+}
+div{
+    padding: 30px  ;
+    background-color: white;
+    margin: 40px auto ;
+    text-align: center;
+    width: 500px;
+
+}
+button{
+    background-color: palevioletred;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}

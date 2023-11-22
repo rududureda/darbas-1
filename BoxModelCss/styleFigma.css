@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(220, 216, 216);
+    text-align: center;
+}
+
+h1{
+    font-size: 200px;
+}
+h2{
+    font-size: 30px;
+    color: gray;
+    position: relative;
+    top: 3rem;
+   
+    
+}
+p{
+    font-size: 30px;
+        
+}
+img{
+    
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    transform:rotate(45deg)
+    margin:2rem 22rem;
+    flex-shrink: 0;
+}
+.kita{
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2rem;
+
+}

@@ -1,0 +1,49 @@
+*{box-sizing: border-box;
+text-align: left;}
+body{
+    background-color: black;
+}
+.max{
+    /* padding: 2rem 2rem; */
+    position: relative;
+    color: white;
+    background-color: rgb(52, 50, 50);
+    margin: 5rem 25rem;
+    padding: 5rem;
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 400%;
+}
+p{
+    font-size:150%;
+    padding: 1rem;
+}
+button{
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgb(52, 50, 50);
+    color: rgb(221, 107, 84) ;
+    border: rgb(221, 107, 84) solid;
+}
+.mega{
+    position:absolute;
+    top: 1rem;
+    left: 21rem;
+}
+.rut1{
+    position: absolute;
+    right:23rem ;
+    bottom:15rem ;
+}
+.rut2{
+    position: absolute;
+    right:23rem ;
+    bottom: 10rem ;
+}
+.zvaig{
+    position: absolute;
+    right:22rem ;
+    bottom: 12rem ;
+}

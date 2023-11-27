@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: calc((100vh - 140px) / 2) 0;
+  font-size: 15rem;
+}
+div {
+  position: fixed;
+  bottom: 2rem;
+  right: 30rem;
+  font-size: 2rem;
+}
+.linkai {
+  /* font-size: 2rem; */
+  /* position: fixed;
+  bottom: 2rem;
+  right: 10rem; */
+}
+.niktukas {
+  border-radius: 12px;
+  border: 2px solid #f17965;
+  color: #f17965;
+  text-decoration: none;
+  background-color: #f5f3f3;
+}
+#button {
+  border-radius: 100%;
+  font-size: 2rem;
+  margin: 0 0;
+}
+.pirmasP {
+  background-color: white;
+}
+.antrasP {
+  background-color: #51cb65;
+}
+.treciasP {
+  background-color: #816ef5;
+}
+.ketvirtasP {
+  background-color: #ea7b7b;
+}
+.penktasP {
+  background-color: #d9d9d9;
+}

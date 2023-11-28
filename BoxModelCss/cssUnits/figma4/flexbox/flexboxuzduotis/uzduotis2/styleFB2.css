@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+.pirmasBlok {
+  background-image: url(./e736c74d2db64d244d4d5d362cdaefe7.jfif);
+  width: 100vw;
+  color: white;
+}
+.linkVisi {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  font-size: 2rem;
+  margin-top: -85px;
+}
+a {
+  padding: 2rem;
+  color: white;
+  text-decoration: none;
+}
+button {
+  border: red solid;
+  border-radius: 20%;
+  height: 3rem;
+  margin-top: 18px;
+  font-size: 2rem;
+}
+.headLogo {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  padding: 5rem 40rem 2rem 2rem;
+}
+main {
+  background-color: coral;
+  background-size: 100vw;
+  padding: 2rem;
+}
+.mainBlock {
+  background-color: rgb(243, 177, 174);
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.mainPir {
+  margin: 2rem;
+  width: 350px;
+}
+.divPag {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  background-color: rgb(243, 177, 174);
+  padding: 5rem;
+}
+.divPag p {
+  background-color: white;
+  margin-right: 1rem;
+  padding: 2rem;
+  width: 399px;
+  height: 614px;
+  font-size: 23px;
+}
+.divPag img {
+  margin: 2rem;
+  width: 844px;
+  height: 614px;
+  
+}

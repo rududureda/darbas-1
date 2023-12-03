@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  font-size: 19px;
+  padding: 1rem;
+}
+.nav button {
+  border: white solid;
+  border-radius: 100%;
+  background-color: black;
+  cursor: pointer;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  padding-top: 10rem;
+  margin: auto;
+  width: 85%;
+}
+.divMain {
+  background-color: rgba(255, 255, 255, 0.634);
+  background-image: url(./foto/backroundice.png);
+  background-blend-mode: soft-light;
+  background-size: 25%;
+  width: 100%;
+  height: 100vh;
+}
+.text {
+  background-color: black;
+  padding: 2rem;
+}
+.text h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 64px;
+  line-height: normal;
+  letter-spacing: 5.12px;
+  padding: 1rem;
+}
+.text p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  padding: 1rem;
+}
+.forDisplay {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 2rem;
+}
+.trysBlokai {
+  background-color: black;
+  color: white;
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: white solid;
+  width: 293px;
+  height: 440px;
+}
+.block1img {
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+}
+.line {
+  background-color: white;
+  width: 23px;
+  height: 3px;
+}
+.block1H {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-variant: all-small-caps;
+  letter-spacing: 0.96px;
+  padding: 1rem;
+}
+.block1P {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: 0.54px;
+  padding: 1rem;
+}
+.block1 button {
+  cursor: pointer;
+  background-color: black;
+  color:  rgb(123, 14, 107);
+}

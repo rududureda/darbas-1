@@ -3,6 +3,7 @@ main{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.2rem;
+    height: 200px;
 }
 .a{
     background-color: rgb(81, 152, 90);

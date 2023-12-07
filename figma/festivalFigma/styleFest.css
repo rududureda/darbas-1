@@ -2,8 +2,8 @@
   box-sizing: border-box;
   font-family: Lato;
 }
-body{
-    font-family: Lato;
+body {
+  font-family: Lato;
 }
 nav {
   background-color: white;
@@ -16,181 +16,194 @@ nav a {
   text-decoration: none;
 }
 .visiNavA {
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
 }
 
 .navABC {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .navflex5 {
   display: flex;
   gap: 20px;
-  
 }
-header{
-    position: relative;
-    top: 3rem;
-    background-image: url(./foto/for\ header.jfif);
-    background-color: rgb(5, 5, 5);
-    background-blend-mode: screen;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 500px;
-    color: white;
-
+header {
+  position: relative;
+  top: 3rem;
+  background-image: url(./foto/for\ header.jfif);
+  background-color: rgb(5, 5, 5);
+  background-blend-mode: screen;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
 }
-.visasHeader{
-    padding: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+.visasHeader {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-
-.headH1{
-    font-size: 72px;
-    letter-spacing: 2px;
-}
-.headP{
-    font-size: 26px;
+@media (max-width: 560px) {
+  .visasHeader {
+    padding: 5rem;
+  }
 }
 
-
-.headBut{
-    background-color:#EB5757; 
-    font-size: 15px;
-    border: none;
-    color: white;
-    padding: 3px 20px;
-    margin-right: 0.2rem;
+.headH1 {
+  font-size: 72px;
+  letter-spacing: 2px;
 }
-.headBut2{
-    background-color:white; 
-    font-size: 15px;
-    border: none;
-    color: #EB5757;
-    padding: 3px 20px;
-    margin-left: 0.2rem;
+.headP {
+  font-size: 26px;
 }
 
-.poHead{
-    position: relative;
-    background-color: #EB5757 ;
-}
-.txPoHead{
-    font-size: 16px;
-    padding:2rem 20rem;
-    text-align: center;
-}
-.blokArtist{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem;
-    gap: 2rem;
-}
-.Artist{
-    font-size: 36px;
-    font-weight: bolder;
-}
-.linija{
-    background-color: #EB5757;
-    border: #EB5757 solid;
-    width: 30px;
-}
-.artistTx{
-    font-size: 16px;
-}
-.artInfo{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2rem 10rem;
-    justify-content: center;
-
-}
-.artInfo img{
-    border: white solid 1px;
-    border-radius: 100%;
-    height: 200px;
-    width: 200px;
-}
-.name{
-font-size: 20px;
-font-weight: bold;
-}
-.discript{
-    font-size: 16px ;
-    padding: 0.5rem ;
-    width: 12rem;
-}
-.tomke{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 2rem 4rem;
-    align-items: center;
+.headBut {
+  background-color: #eb5757;
+  font-size: 15px;
+  border: none;
+  color: white;
+  padding: 3px 20px;
+  margin-right: 0.2rem;
 }
 
+@media (max-width: 560px) {
+  .headBut {
+    width: 150px;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
 
+.headBut2 {
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  color: #eb5757;
+  padding: 3px 20px;
+  margin-left: 0.2rem;
+}
 
+@media (max-width: 560px) {
+  .headBut2 {
+    width: 150px;
+    margin-left: 0;
+  }
+}
 
+.poHead {
+  position: relative;
+  background-color: #eb5757;
+}
+.txPoHead {
+  font-size: 16px;
+  padding: 2rem 20rem;
+  text-align: center;
+}
 
+@media (max-width: 1100px) {
+  .txPoHead {
+    padding: 2rem 7rem;
+  }
+}
+@media (max-width: 880px) {
+  .txPoHead {
+    padding: 2rem 2rem;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1100px){
-    .txPoHead {
-    padding:2rem 7rem;
-    }
-    @media (max-width: 880px){
-        .txPoHead {
-        padding:2rem 2rem;
-        }
-
-        @media (max-width: 560px) {
-            .headBut  {
-               width: 150px;
-               margin-right: 0;
-               margin-bottom: 0.5rem;
-            }
-            @media (max-width: 560px) {
-                .visasHeader {
-                    padding: 5rem;
-            }
-            @media (max-width: 560px) {
-                .headBut2  {
-                   width: 150px;
-                   margin-left: 0;
-                }
+.blokArtist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+}
+.Artist {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.linija {
+  background-color: #eb5757;
+  border: #eb5757 solid;
+  width: 30px;
+}
+.artistTx {
+  font-size: 16px;
+}
+.artInfo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 10rem;
+  justify-content: center;
+}
+.artInfo img {
+  border: white solid 1px;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.discript {
+  font-size: 16px;
+  padding: 0.5rem;
+  width: 12rem;
+}
+.tomke {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2rem 4rem;
+  align-items: center;
+}
+/* kai uzdesiu wrap ir padarysiu auksti ploti tada turetu viskas atsistot i vietas*/
+.gallery {
+  display: grid;
+  /* grid-template-columns: repeat(5, auto); */
+  grid-template-columns: repeat(auto-fill, minmax(244px, 1fr));
+  gap: 24px;
+}
+.gallery img {
+  width: 244px;
+  height: 212px;
+}
+.price {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+}
+.allTickets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 424px;
+  height: 375px;
+}
+.oneTicket {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+.tickTX {
+  font-size: 16px;
+}
+.price * {
+  font-size: 20px;
+}
+.suma {
+  color: #eb5757;
+}
+.tickButt {
+  background-color: #eb5757;
+  color: white;
+  font-size: 14px;
+  border: none;
+  padding: 0.5rem 4rem;
+}

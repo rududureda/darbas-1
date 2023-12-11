@@ -1,0 +1,32 @@
+// font-family: 'Lato', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+nav .navbar-brand {
+  color: #878b9b;
+  font-family: Roboto Condensed;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav-item .nav-link.active {
+  color: #43c45f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.nav-item a {
+  color: #404445;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

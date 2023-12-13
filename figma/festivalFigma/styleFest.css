@@ -62,7 +62,7 @@ header {
 }
 
 .headBut {
-  background-color: #eb5757;
+  background-color: red;
   font-size: 15px;
   border: none;
   color: white;
@@ -82,7 +82,7 @@ header {
   background-color: white;
   font-size: 15px;
   border: none;
-  color: #a90505;
+  color:#eb5757;
   padding: 3px 20px;
   margin-left: 0.2rem;
 }

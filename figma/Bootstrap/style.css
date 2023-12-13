@@ -28,4 +28,86 @@ nav .navbar-brand {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+nav ul {
+  gap: 2rem;
+}
+
+.poNav {
+  background-image: url(./FOTO/Rectangle\ 1.png);
+  width: 100%;
+  height: 600px;
+}
+.poNav h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 500;
+}
+.poNav p {
+  color: #d5d7d8;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 400;
+  width: 660px;
+}
+@media (max-width: 990px) {
+  .poNav p {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.poNav button {
+  background-color: #43c45f;
+  color: white;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 1rem 4rem;
+}
+
+.visosIc h1 {
+  color: #404445;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 18px 0 10px;
+}
+.visosIc p {
+  color: #5f6b81;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Icfoto {
+  background-image: url(./FOTO/Rectangle\ 4.png);
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 648px;
+  height: 350px;
+}
+
+.secondBloc h1 {
+  color: #404445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+}
+.secondBloc p {
+  color: #5f6b81;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

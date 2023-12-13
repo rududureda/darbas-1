@@ -1,0 +1,4 @@
+@use "../abstracts/color";
+* {
+  color: color.$color;
+}

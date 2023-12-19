@@ -7,7 +7,7 @@ body {
 }
 nav {
   background-color: white;
-  position: fixed;
+  position: sticky;
   text-decoration: none;
   width: 100%;
   padding: 1rem;
